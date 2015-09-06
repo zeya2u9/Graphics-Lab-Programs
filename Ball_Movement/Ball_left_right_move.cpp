@@ -1,19 +1,13 @@
-#ifdef __APPLE__
+
 #include<GLUT/glut.h>
 #include<openGL/openGL.h>
-
-#else
 #include<GL/glut.h>
-#endif
 #include<stdio.h>
 
 float x1=-2.0,x2=2.0;
 int flag=1;
  GLboolean isLeftKeyPressed,isRightKeyPressed;
 /*void initRendering()
-{
-    glEnable(GL_DEPTH_TEST);
-}*/
 
 void reshape(int w,int h)
 {
